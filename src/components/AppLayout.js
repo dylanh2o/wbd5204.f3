@@ -13,7 +13,7 @@ const AppLayout = () => {
 
 	return user === null ? <Redirect to="/login"/> : (
 		<>
-			<div>
+			<div class="Menu">
 				<Link to="/">Home</Link>
 				&nbsp;|&nbsp;
 				<Link to="/Blog">Blog</Link>

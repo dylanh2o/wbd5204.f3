@@ -1,10 +1,25 @@
 import React from 'react';
 import Page from "./page";
+import RegistrationForm from '../components/RegistrationForm'
+import './Contact.css';
+const Contact = () => {
 
-const Contact = () => (
-	<Page>
-		<h1>Contact</h1>
-	</Page>
-);
+	return (
+
+
+
+
+
+
+		<Page>
+			<h1>Contact</h1>
+			<div class="CadreContact">
+		<RegistrationForm/>
+		</div>
+		</Page>
+	);
+};
+
+
 
 export default Contact;
